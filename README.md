@@ -72,12 +72,12 @@ graph TD
 
 | Category | Benchmark | **GLM-4.7** | Claude Opus 4.5 | Claude Sonnet 4.5 | GPT-5.1 | Qwen-3 Coder | DeepSeek-V3.2 | MiniMax 2.1 | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Math** | AIME 25 | $\color{green}{\textbf{95.7}}$ | 93.5 | 87.0 | 94.6 | 89.3 | $\color{green}{\textbf{96.0}}$ | 78.0 | [Z.ai Tech Report] • [Anthropic] • [Qwen Tech Report] • [Ollama] |
-| **Coding** | LiveCodeBench | 84.9 | 64.0 | 64.0 | $\color{green}{\textbf{87.0}}$ | 74.8 | 83.3 | N/A | [LiveCodeBench v6] • [Cursor IDE] • [Qwen Tech Report] • [Ollama] |
-| **Science** | GPQA-Diamond | 85.7 | 87.0 | 83.4 | $\color{green}{\textbf{88.1}}$ | N/A | 80.3 | 78.0 | [Official Zhipu AI] • [Anthropic] • [Vellum.ai] • [Ollama] |
-| **Logic** | HLE (w/ Tools) | 42.8 | $\color{green}{\textbf{43.2}}$ | 28.0 | 31.6 | N/A | 21.7 | 31.8 | [Humanity's Last Exam] • [Vellum.ai] • [Ollama] |
-| **Engineering** | SWE-bench (Verified) | 73.8% | $\color{green}{\textbf{80.9%}}$ | 77.2% | 74.9% | 69.6% | 73.1% | 69.4% | [SWE-bench 2025] • [Anthropic] • [Index.dev] • [Ollama] • [Hugging Face] |
-| **Agentic** | τ²-Bench | $\color{green}{\textbf{87.4%}}$ | N/A | 84.7 | 82.7% | N/A | 66.7 | 77.2 | [Official Z.AI] • [Ollama] • [Vellum.ai] |
+| **Math** | AIME 25 | $\color{green}{\textbf{95.7}}$ | 93.5 | 87.0 | 94.6 | 89.3 | $\color{green}{\textbf{96.0}}$ | 78.0 | [Z.ai](https://z.ai/blog/glm-4.7) • [Anthropic](https://www.anthropic.com) • [Qwen](https://qwenlm.github.io/blog/qwen2.5-coder/) • [Ollama](https://ollama.com/library/glm4) |
+| **Coding** | LiveCodeBench | 84.9 | 64.0 | 64.0 | $\color{green}{\textbf{87.0}}$ | 74.8 | 83.3 | N/A | [LiveCodeBench](https://livecodebench.github.io/leaderboard.html) • [Cursor](https://cursor.com/blog) • [Qwen](https://qwenlm.github.io/blog/qwen2.5-coder/) • [Ollama](https://ollama.com/library/glm4) |
+| **Science** | GPQA-Diamond | 85.7 | 87.0 | 83.4 | $\color{green}{\textbf{88.1}}$ | N/A | 80.3 | 78.0 | [Zhipu AI](https://zhipuai.cn/) • [Anthropic](https://www.anthropic.com) • [Vellum](https://www.vellum.ai/llm-leaderboard) • [Ollama](https://ollama.com/library/glm4) |
+| **Logic** | HLE (w/ Tools) | 42.8 | $\color{green}{\textbf{43.2}}$ | 28.0 | 31.6 | N/A | 21.7 | 31.8 | [Scale AI](https://scale.com/leaderboard/humanitys_last_exam) • [Vellum](https://www.vellum.ai/llm-leaderboard) • [Ollama](https://ollama.com/library/glm4) |
+| **Engineering** | SWE-bench (Verified) | 73.8% | $\color{green}{\textbf{80.9%}}$ | 77.2% | 74.9% | 69.6% | 73.1% | 69.4% | [SWE-bench](https://www.swebench.com/) • [Anthropic](https://www.anthropic.com) • [Index](https://index.dev/blog/) • [Ollama](https://ollama.com/library/glm4) • [Hugging Face](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) |
+| **Agentic** | τ²-Bench | $\color{green}{\textbf{87.4%}}$ | N/A | 84.7 | 82.7% | N/A | 66.7 | 77.2 | [Official Z.AI](https://z.ai/blog/glm-4.7) • [Ollama](https://ollama.com/library/glm4) • [Vellum](https://www.vellum.ai/llm-leaderboard) |
 
 ---
 
@@ -219,18 +219,16 @@ To ensure transparency and build trust, the data presented in this article is de
 ---
 
 ## 🔗 Source Links
-- [Z.ai Tech Report]: https://z.ai/subscribe?ic=R0K78RJKNW
-- [Anthropic]: https://docs.anthropic.com/en/docs/about-claude/models
-- [Qwen Tech Report]: https://github.com/Qwen/Qwen
-- [Ollama]: https://ollama.com/library
-- [LiveCodeBench v6]: https://livecodebench.github.io/
-- [Cursor IDE]: https://cursor.com
-- [Official Zhipu AI]: https://z.ai/subscribe?ic=R0K78RJKNW
-- [Vellum.ai]: https://www.vellum.ai
-- [SWE-bench 2025]: https://github.com/princeton-nlp/SWE-bench
-- [Index.dev]: https://www.index.dev
-- [Hugging Face]: https://huggingface.co
-- [Humanity's Last Exam]: https://huggingface.co/datasets/Anthropic/hle
+- [Z.ai Tech Report](https://z.ai/blog/glm-4.7)
+- [Anthropic Benchmarks](https://www.anthropic.com/news/claude-3-5-sonnet)
+- [Qwen Technical Report](https://qwenlm.github.io/blog/qwen2.5-coder/)
+- [LiveCodeBench Leaderboard](https://livecodebench.github.io/leaderboard.html)
+- [SWE-bench Verified](https://www.swebench.com/)
+- [Humanity's Last Exam (HLE)](https://scale.com/leaderboard/humanitys_last_exam)
+- [LMSYS Chatbot Arena](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)
+- [τ²-Bench Tool Use](https://z.ai/blog/glm-4.7)
+- [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard)
+- [BuildingClub Pricing Data](https://buildingclub.info/z-ai-glm-4-7-token-cost-calculator-and-pricing-estimator/)
 
 *Note: AI performance metrics are subject to change as models are updated. Users are encouraged to verify latest scores on platforms like [LMSYS Chatbot Arena](https://lmarena.ai/).*
 
