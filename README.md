@@ -30,40 +30,115 @@ GLM-4.7 demonstrates competitive performance against the newest generation of fl
 *Note: Best scores per category are highlighted in $\color{green}{\text{green}}$. Data sourced from [Z.ai Official Blog](https://z.ai/blog/glm-4.7).*
 
 ```mermaid
-graph TD
-    subgraph "2025 Flagship Benchmark Comparison"
-    M[Math - AIME 25] --> G1{<b>GLM-4.7: 95.7%</b>}
-    M --> C1[Claude Sonnet 4.5: 87.0%]
-    M --> G2[Gemini 3.0 Pro: 95.0%]
-    M --> D1[DeepSeek-V3.2: 93.1%]
-    M --> P1[GPT-5.1 High: 94.0%]
-    
-    CO[Coding - LiveCode] --> G2_C{<b>GLM-4.7: 84.9%</b>}
-    CO --> C2[Claude Sonnet 4.5: 64.0%]
-    CO --> D2[DeepSeek-V3.2: 83.3%]
-    CO --> P2[GPT-5.1 High: 87.0%]
-    CO --> G2_CO[Gemini 3.0 Pro: 90.7%]
-    
-    S[Science - GPQA] --> G3{<b>GLM-4.7: 85.7%</b>}
-    S --> C3[Claude Sonnet 4.5: 83.4%]
-    S --> D3[DeepSeek-V3.2: 82.4%]
-    S --> P3[GPT-5.1 High: 88.1%]
-    S --> G3_S[Gemini 3.0 Pro: 91.9%]
-    
-    L[Logic - HLE w/Tools] --> G4{<b>GLM-4.7: 42.8%</b>}
-    L --> C4[Claude Sonnet 4.5: 32.0%]
-    L --> D4[DeepSeek-V3.2: 40.8%]
-    L --> P4[GPT-5.1 High: 42.7%]
-    L --> G4_L[Gemini 3.0 Pro: 45.8%]
+flowchart TD
+    subgraph GLM [🚀 GLM-4.7 Dominance]
+        direction TB
+        MATH[🧮 MATH<br/>AIME 25]
+        CODING[💻 CODING<br/>LiveCodeBench v6]
+        SCIENCE[🔬 SCIENCE<br/>GPQA-Diamond]
+        LOGIC[🧠 LOGIC<br/>HLE w/Tools]
+        ENGINEERING[⚙️ ENGINEERING<br/>SWE-bench]
+        AGENTIC[🤖 AGENTIC<br/>τ²-Bench]
+        
+        GLM_MATH[<b>GLM-4.7<br/>95.7%</b>]
+        GLM_CODING[<b>GLM-4.7<br/>84.9%</b>]
+        GLM_SCIENCE[<b>GLM-4.7<br/>85.7%</b>]
+        GLM_LOGIC[<b>GLM-4.7<br/>42.8%</b>]
+        GLM_ENG[<b>GLM-4.7<br/>73.8%</b>]
+        GLM_AGENT[<b>GLM-4.7<br/>87.4%</b>]
+        
+        MATH --> GLM_MATH
+        CODING --> GLM_CODING
+        SCIENCE --> GLM_SCIENCE
+        LOGIC --> GLM_LOGIC
+        ENGINEERING --> GLM_ENG
+        AGENTIC --> GLM_AGENT
     end
     
-    classDef glmNode fill:#00c853,stroke:#1b5e20,stroke-width:3px,color:#ffffff,font-weight:bold,font-size:14px
-    classDef sonnetNode fill:#f1f8e9,stroke:#c5e1a5,stroke-width:1px,color:#558b2f
-    classDef budgetNode fill:#e3f2fd,stroke:#2196f3,stroke-width:1px,color:#0d47a1
+    subgraph COMPETITORS [📊 Top Competitors]
+        direction LR
+        
+        subgraph GEM [💎 Gemini 3.0 Pro]
+            G_MATH[95.0%]
+            G_CODING[<b>90.7%</b>]
+            G_SCIENCE[<b>91.9%</b>]
+            G_LOGIC[<b>45.8%</b>]
+            G_ENG[76.2%]
+            G_AGENT[<b>90.7%</b>]
+        end
+        
+        subgraph GPT [🔵 GPT-5.1 High]
+            P_MATH[94.0%]
+            P_CODING[87.0%]
+            P_SCIENCE[<b>88.1%</b>]
+            P_LOGIC[42.7%]
+            P_ENG[76.3%]
+            P_AGENT[82.7%]
+        end
+        
+        subgraph DS [🟢 DeepSeek-V3.2]
+            D_MATH[93.1%]
+            D_CODING[83.3%]
+            D_SCIENCE[82.4%]
+            D_LOGIC[40.8%]
+            D_ENG[73.1%]
+            D_AGENT[85.3%]
+        end
+        
+        subgraph CLAUDE [🟣 Claude Sonnet 4.5]
+            C_MATH[87.0%]
+            C_CODING[64.0%]
+            C_SCIENCE[83.4%]
+            C_LOGIC[32.0%]
+            C_ENG[<b>77.2%</b>]
+            C_AGENT[87.2%]
+        end
+    end
     
-    class G1,G2_C,G3,G4 glmNode
-    class C1,C2,C3,C4 sonnetNode
-    class D1,D2,D3,D4,G2,P1,P2,P3,P4,G2_CO,G3_S,G4_L budgetNode
+    GLM_MATH -.-> G_MATH
+    GLM_MATH -.-> P_MATH
+    GLM_MATH -.-> D_MATH
+    GLM_MATH -.-> C_MATH
+    
+    GLM_CODING -.-> G_CODING
+    GLM_CODING -.-> P_CODING
+    GLM_CODING -.-> D_CODING
+    GLM_CODING -.-> C_CODING
+    
+    GLM_SCIENCE -.-> G_SCIENCE
+    GLM_SCIENCE -.-> P_SCIENCE
+    GLM_SCIENCE -.-> D_SCIENCE
+    GLM_SCIENCE -.-> C_SCIENCE
+    
+    GLM_LOGIC -.-> G_LOGIC
+    GLM_LOGIC -.-> P_LOGIC
+    GLM_LOGIC -.-> D_LOGIC
+    GLM_LOGIC -.-> C_LOGIC
+    
+    GLM_ENG -.-> G_ENG
+    GLM_ENG -.-> P_ENG
+    GLM_ENG -.-> D_ENG
+    GLM_ENG -.-> C_ENG
+    
+    GLM_AGENT -.-> G_AGENT
+    GLM_AGENT -.-> P_AGENT
+    GLM_AGENT -.-> D_AGENT
+    GLM_AGENT -.-> C_AGENT
+    
+    classDef glmNode fill:#00C853,stroke:#004D40,stroke-width:3px,color:#FFFFFF,font-weight:bold,font-size:13px,radius:8px
+    classDef geminiNode fill:#FFB74D,stroke:#E65100,stroke-width:2px,color:#FFFFFF,font-weight:bold,font-size:12px,radius:6px
+    classDef gptNode fill:#64B5F6,stroke:#1565C0,stroke-width:2px,color:#FFFFFF,font-weight:bold,font-size:12px,radius:6px
+    classDef deepseekNode fill:#4DB6AC,stroke:#00695C,stroke-width:2px,color:#FFFFFF,font-weight:bold,font-size:12px,radius:6px
+    classDef claudeNode fill:#AB47BC,stroke:#6A1B9A,stroke-width:2px,color:#FFFFFF,font-weight:bold,font-size:12px,radius:6px
+    classDef categoryNode fill:#37474F,stroke:#263238,stroke-width:2px,color:#ECEFF1,font-weight:bold,font-size:11px,radius:4px
+    classDef subgraphNode fill:#FAFAFA,stroke:#B0BEC5,stroke-width:2px,stroke-dasharray: 5 5
+    
+    class GLM_MATH,GLM_CODING,GLM_SCIENCE,GLM_LOGIC,GLM_ENG,GLM_AGENT glmNode
+    class G_MATH,G_CODING,G_SCIENCE,G_LOGIC,G_ENG,G_AGENT geminiNode
+    class P_MATH,P_CODING,P_SCIENCE,P_LOGIC,P_ENG,P_AGENT gptNode
+    class D_MATH,D_CODING,D_SCIENCE,D_LOGIC,D_ENG,D_AGENT deepseekNode
+    class C_MATH,C_CODING,C_SCIENCE,C_LOGIC,C_ENG,C_AGENT claudeNode
+    class MATH,CODING,SCIENCE,LOGIC,ENGINEERING,AGENTIC categoryNode
 ```
 
 | Category | Benchmark | **GLM-4.7** | Claude Sonnet 4.5 | GPT-5.1 High | DeepSeek-V3.2 | Gemini 3.0 Pro | Source |
