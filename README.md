@@ -13,13 +13,13 @@
 ### 💡 Key Takeaways (TL;DR)
 - **GLM-4.7** is the new **SOTA (State of the Art)** AI coding model for 2025.
 - Developed by **Zhipu AI**, it offers enterprise-level performance matching or exceeding flagship models like **Claude Sonnet 4.5** and **GPT-5.1**.
-- **Price Point**: $0.11 per 1M input tokens, $2.20 per 1M output tokens vs. $3.00/$15.00 for Claude Sonnet 4.5.
+- **Price Point**: $0.60 per 1M input tokens ($0.11 cached), $2.20 per 1M output tokens vs. $3.00/$15.00 for Claude Sonnet 4.5.
 - **Context Window**: Massive **200K tokens** for full codebase analysis.
 - **Best For**: Cost-conscious developers, agentic workflows, and high-complexity debugging.
 
 The global landscape for AI-powered development is shifting. While Western tools like **Cursor Pro** and **GitHub Copilot** have dominated by charging premium subscription rates (often reaching $200 per year), a new contender from Beijing, China, has arrived to dismantle that pricing model.
 
-**Zhipu AI** has released **GLM-4.7**, a large language model specifically engineered for coding, offering performance that rivals top-tier US models at a fraction of the cost. With a price point of **$0.11 per 1M input tokens** and **$2.20 per 1M output tokens**, GLM-4.7 is forcing developers to question if expensive subscriptions are still necessary.
+**Zhipu AI** has released **GLM-4.7**, a large language model specifically engineered for coding, offering performance that rivals top-tier US models at a fraction of the cost. With a price point of **$0.60 per 1M input tokens** (dropping to **$0.11** with caching) and **$2.20 per 1M output tokens**, GLM-4.7 is forcing developers to question if expensive subscriptions are still necessary.
 
 ---
 
@@ -127,7 +127,7 @@ The market for high-performance, budget-friendly AI has expanded significantly i
 Objectively, **Claude Sonnet 4.5** and **GPT-5.1** currently hold the edge in massive-scale architectural planning and natural language nuance. However, GLM-4.7 has achieved parity or leadership in execution-heavy benchmarks (LiveCodeBench: 84.9) and mathematical reasoning (AIME 25: 95.7). For developers, the choice is often between paying for the absolute peak (Claude/GPT) or achieving 95% of that performance with GLM-4.7 for 1/20th the price.
 
 **How much does the GLM-4.7 coding tool cost?**
-The Z.AI Lite plan starts at **$9/quarter**. For API users, GLM-4.7 is priced at **$0.11 per 1M input tokens** and **$2.20 per 1M output tokens**, significantly undercutting the $3.00/$15.00 token rate of Claude Sonnet 4.5.
+The Z.AI Lite plan starts at **$9/quarter**. For API users, GLM-4.7 is priced at **$0.60 per 1M input tokens** ($0.11 with caching) and **$2.20 per 1M output tokens**, significantly undercutting the $3.00/$15.00 token rate of Claude Sonnet 4.5.
 
 **Who developed GLM-4.7?**
 GLM-4.7 was developed by **Zhipu AI**, a leading artificial intelligence company based in Beijing, China, emerging from the Knowledge Engineering Group (KEG) at Tsinghua University.
