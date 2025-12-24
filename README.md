@@ -28,6 +28,8 @@ The global landscape for AI-powered development is shifting. While Western tools
 GLM-4.7 demonstrates competitive performance against the newest generation of flagship models, including **Claude Sonnet 4.5** and **GPT-5.1**, based on the latest 2025 public technical reports.
 
 ### 📊 2025 AI Coding Model Performance Comparison
+*Note: Best scores per category are highlighted in $\color{green}{\text{green}}$.*
+
 ```mermaid
 graph TD
     subgraph "2025 Flagship Benchmark Comparison"
@@ -70,12 +72,12 @@ graph TD
 
 | Category | Benchmark | **GLM-4.7** | Claude Opus 4.5 | Claude Sonnet 4.5 | GPT-5.1 | Qwen-3 Coder | DeepSeek-V3.2 | MiniMax 2.1 | Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Math** | AIME 25 | **95.7** | 93.5 | 87.0 | 94.0 | 89.3 | 88.0 | 78.0 | [Z.ai Tech Report][Anthropic][Qwen Tech Report][Ollama] |
-| **Coding** | LiveCodeBench | **84.9** | 64.0 | 64.0 | 87.0 | 74.8 | 73.3 | N/A | [LiveCodeBench v6][Cursor IDE][Qwen Tech Report][Ollama] |
-| **Science** | GPQA-Diamond | **85.7** | 87.0 | 83.4 | 88.1 | N/A | 81.0 | 78.0 | [Official Zhipu AI][Anthropic][Vellum.ai][Ollama] |
-| **Logic** | HLE (w/ Tools) | **42.8** | 43.2 | 32.0 | 42.7 | N/A | 27.2 | 31.8 | [Humanity's Last Exam][Vellum.ai][Ollama] |
-| **Engineering** | SWE-bench (Verified) | **73.8%** | **80.9%** | 77.2% | 74.9% | **69.6%** | **67.8%** | **69.4%** | [SWE-bench 2025][Anthropic][Index.dev][Ollama][Hugging Face] |
-| **Agentic** | τ²-Bench | **87.4%** | N/A | 84.7 | 82.7% | N/A | 66.7 | 77.2 | [Official Z.AI][Ollama][Vellum.ai] |
+| **Math** | AIME 25 | $\color{green}{\textbf{95.7}}$ | 93.5 | 87.0 | 94.0 | 89.3 | 88.0 | 78.0 | [Z.ai Tech Report] • [Anthropic] • [Qwen Tech Report] • [Ollama] |
+| **Coding** | LiveCodeBench | 84.9 | 64.0 | 64.0 | $\color{green}{\textbf{87.0}}$ | 74.8 | 73.3 | N/A | [LiveCodeBench v6] • [Cursor IDE] • [Qwen Tech Report] • [Ollama] |
+| **Science** | GPQA-Diamond | 85.7 | 87.0 | 83.4 | $\color{green}{\textbf{88.1}}$ | N/A | 81.0 | 78.0 | [Official Zhipu AI] • [Anthropic] • [Vellum.ai] • [Ollama] |
+| **Logic** | HLE (w/ Tools) | 42.8 | $\color{green}{\textbf{43.2}}$ | 32.0 | 42.7 | N/A | 27.2 | 31.8 | [Humanity's Last Exam] • [Vellum.ai] • [Ollama] |
+| **Engineering** | SWE-bench (Verified) | 73.8% | $\color{green}{\textbf{80.9%}}$ | 77.2% | 74.9% | 69.6% | 67.8% | 69.4% | [SWE-bench 2025] • [Anthropic] • [Index.dev] • [Ollama] • [Hugging Face] |
+| **Agentic** | τ²-Bench | $\color{green}{\textbf{87.4%}}$ | N/A | 84.7 | 82.7% | N/A | 66.7 | 77.2 | [Official Z.AI] • [Ollama] • [Vellum.ai] |
 
 ---
 
