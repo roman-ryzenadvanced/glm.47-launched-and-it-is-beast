@@ -96,7 +96,34 @@ Yes, Zhipu AI offers global API access. It is already integrated into popular to
 
 ---
 
-## 🎁 Special Christmas Offer
+## � Official Z.AI Ecosystem & Plans
+*Data sourced from the [Official Z.AI Website](https://z.ai/subscribe)*
+
+GLM-4.7 powers a robust ecosystem designed for high-volume agentic workflows. According to the official Z.AI specifications, the following tools and plans are currently supported:
+
+### 🛠️ Supported Coding Tools
+GLM-4.7 is compatible with over 10 leading coding tools and IDEs, including:
+- **Cursor**
+- **Cline**
+- **Claude Code**
+- **Kilo Code**
+- **TRAE (SOLO Agent)**
+- **Roo Code**
+- **OpenCode**
+- **Goose**
+
+### 💎 Official Subscription Tiers
+| Plan | Price (1st Qtr) | Benefits |
+| :--- | :--- | :--- |
+| **Lite** | **$9** | 3× usage of Claude Pro plan, powered by GLM-4.7 |
+| **Pro** | **$45** | 5× Lite usage, 40-60% faster, includes Vision & Web Search |
+| **Max** | **$90** | 4× Pro usage, guaranteed peak performance, early access |
+
+*All plans include access to flagship model updates and the Z.AI MCP (Model Context Protocol) suite.*
+
+---
+
+## �🎁 Special Christmas Offer
 
 Don't miss out on the AI Coding Revolution. Get the most powerful model for the lowest price!
 
